@@ -48,3 +48,8 @@
 ### MN Payments
 
 - Masternode payments begin from block 2001
+
+### Troubleshooting
+
+1. When I open the wallet again, it shows : "DB need reindex", "DB need resync" ...etc.
+If the wallet blockchain db broken or reindex frequently when re-open the wallet, add "dbcache=16" in SLC.conf. Default parameter use big memory cache size cause this easily when computer is low performance. I will force generate the stable .conf on next version.
