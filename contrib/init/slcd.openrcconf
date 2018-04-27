@@ -1,0 +1,26 @@
+# /etc/conf.d/slcd: config file for /etc/init.d/slcd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/slc/slc.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/slcd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/slcd.pid"
+
+# Where to write slcd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/slcd"
+
+# User and group to own slcd process
+#BITCOIND_USER="slc"
+#BITCOIND_GROUP="slc"
+
+# Path to slcd executable
+#BITCOIND_BIN="/usr/bin/slcd"
+
+# Nice value to run slcd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

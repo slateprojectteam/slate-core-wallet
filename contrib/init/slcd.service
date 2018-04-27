@@ -1,0 +1,22 @@
+[Unit]
+Description=SLC's distributed currency daemon
+After=network.target
+
+Type=forking
+PIDFile=/var/lib/slcd/slcd.pid
+
+ExecStart=/usr/bin/slcd -daemon -pid=/var/lib/slcd/slcd.pid \
+          -conf=/etc/slc/slc.conf -datadir=/var/lib/slcd
+
+ExecStop=-/usr/bin/slc-cli -conf=/etc/slc/slc.conf \
+         -datadir=/var/lib/slcd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

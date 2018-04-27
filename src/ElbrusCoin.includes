@@ -1,0 +1,12 @@
+.
+config
+primitives
+qt
+qt/test
+script
+secp256k1/include
+secp256k1/src
+secp256k1/src/java
+test
+univalue
+zmq

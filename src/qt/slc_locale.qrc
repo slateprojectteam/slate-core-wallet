@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/slc_bg.qm</file>
+        <file alias="ca">locale/slc_ca.qm</file>
+        <file alias="cs">locale/slc_cs.qm</file>
+        <file alias="da">locale/slc_da.qm</file>
+        <file alias="de">locale/slc_de.qm</file>
+        <file alias="en">locale/slc_en.qm</file>
+        <file alias="en_US">locale/slc_en_US.qm</file>
+        <file alias="es">locale/slc_es.qm</file>
+        <file alias="fi">locale/slc_fi.qm</file>
+        <file alias="fr_FR">locale/slc_fr_FR.qm</file>
+        <file alias="it">locale/slc_it.qm</file>
+        <file alias="ja">locale/slc_ja.qm</file>
+        <file alias="ko_KR">locale/slc_ko_KR.qm</file>
+        <file alias="nl">locale/slc_nl.qm</file>
+        <file alias="pl">locale/slc_pl.qm</file>
+        <file alias="pt">locale/slc_pt.qm</file>
+        <file alias="pt_BR">locale/slc_pt_BR.qm</file>
+        <file alias="ro_RO">locale/slc_ro_RO.qm</file>
+        <file alias="ru">locale/slc_ru.qm</file>
+        <file alias="sk">locale/slc_sk.qm</file>
+        <file alias="sv">locale/slc_sv.qm</file>
+        <file alias="uk">locale/slc_uk.qm</file>
+        <file alias="zh_CN">locale/slc_zh_CN.qm</file>
+        <file alias="zh_TW">locale/slc_zh_TW.qm</file>
+    </qresource>
+</RCC>
