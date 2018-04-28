@@ -175,8 +175,8 @@ public:
         assert(hashGenesisBlock == uint256("0x0000070948f0d20ab3e12b1c69b6d8393643f1d1d9b2d10bc834673c513a9eb7"));
         assert(genesis.hashMerkleRoot == uint256("0x24c207895e2361db064b8705542fab5ea2cf93e64e264aa8f444da2332a66df8"));
 
-//        vSeeds.push_back(CDNSSeedData("45.76.143.123", "45.76.143.123"));
-//        vSeeds.push_back(CDNSSeedData("45.77.255.46", "45.77.255.46"));
+        vSeeds.push_back(CDNSSeedData("206.189.170.169", "206.189.170.169"));
+        vSeeds.push_back(CDNSSeedData("206.189.69.60", "206.189.69.60"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -248,10 +248,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "slc-testnet.seed.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "slc-testnet.seed2.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
-        vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
+        vSeeds.push_back(CDNSSeedData("206.189.170.169", "206.189.170.169"));
+        vSeeds.push_back(CDNSSeedData("206.189.69.60", "206.189.69.60"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet SLC addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet SLC script addresses start with '8' or '9'
